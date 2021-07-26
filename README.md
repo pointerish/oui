@@ -1,10 +1,13 @@
 ## OUI Lookup Tool
 
-This simple tool does OUI lookups using Wireshark's Gitlab Repo.
+This simple CLI tool does OUI lookups using Wireshark's Gitlab Repo as the source. This small project was mainly done to practice the strategy design pattern. New algorithms to perform the actual search can be implemented and used instead of the default one which is a linear search.
 
 ### Usage
 
-`python oui.py $OUI_VALUE`
+For example, running the following command:
+`python oui.py 00:00:36`
+
+will return: `MAC: 00:00:36 | Manufacturer: Atari Corporation`
 
 ### TODOs
 
